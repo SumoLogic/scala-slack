@@ -6,9 +6,9 @@ version := "0.3.1-SNAPSHOT"
 
 scalacOptions += "-target:jvm-1.6"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.12"
 
-crossScalaVersions ++= Seq("2.11.2", "2.12.3")
+crossScalaVersions ++= Seq("2.11.12", "2.12.11")
 
 // Publish settings
 
