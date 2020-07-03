@@ -4,7 +4,7 @@ organization := "com.flyberrycapital"
 
 version := "0.3.1-SNAPSHOT"
 
-scalacOptions += "-target:jvm-1.6"
+scalacOptions += "-target:jvm-1.8"
 
 scalaVersion := "2.11.12"
 
