@@ -8,7 +8,7 @@ scalacOptions += "-target:jvm-1.6"
 
 scalaVersion := "2.11.2"
 
-crossScalaVersions ++= Seq("2.10.4", "2.11.2", "2.12.3")
+crossScalaVersions ++= Seq("2.11.2", "2.12.3")
 
 // Publish settings
 
