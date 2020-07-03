@@ -4,11 +4,11 @@ organization := "com.flyberrycapital"
 
 version := "0.3.1-SNAPSHOT"
 
-scalacOptions += "-target:jvm-1.6"
+scalacOptions += "-target:jvm-1.8"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.12"
 
-crossScalaVersions ++= Seq("2.10.4", "2.11.2", "2.12.3")
+crossScalaVersions ++= Seq("2.11.12", "2.12.11", "2.13.3")
 
 // Publish settings
 
@@ -45,10 +45,10 @@ pomExtra := (
 
 
 
-libraryDependencies += "com.typesafe.play" %% "play-json" % "2.6.6"
+libraryDependencies += "com.typesafe.play" %% "play-json" % "2.7.4"
 
-libraryDependencies += "org.scalaj" %% "scalaj-http" % "2.3.0"
+libraryDependencies += "org.scalaj" %% "scalaj-http" % "2.4.2"
 
 libraryDependencies += "org.mockito" % "mockito-core" % "1.8.5" % "test"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
