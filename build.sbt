@@ -2,7 +2,7 @@ name := "scala-slack"
 
 organization := "com.flyberrycapital"
 
-version := "0.3.1-SNAPSHOT"
+version := "0.3.2-SUMO-1"
 
 scalacOptions += "-target:jvm-1.8"
 
@@ -14,6 +14,10 @@ crossScalaVersions ++= Seq("2.11.12", "2.12.11", "2.13.3")
 
 publishMavenStyle := true
 
+// HOWTO:
+// 1. Go to our repo
+// 2. get to packages
+// 3. There's a "setup" section where you can select SBT and it'll get you going
 publishTo := {
    val nexus = "https://oss.sonatype.org/"
    if (isSnapshot.value)
